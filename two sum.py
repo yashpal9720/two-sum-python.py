@@ -8,4 +8,4 @@ class Solution:
             if complement in seen:
                 return [i, seen[complement]]
             seen[num] = i
-            i += 1
+            i += 2
